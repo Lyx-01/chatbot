@@ -1,0 +1,19 @@
+{
+  "data_dir_path": "C:\\Users\\barbi\\PycharmProjects\\CETIChat2\\NLP\\Data\\data",
+  "model_checkpoint": "C:\\Users\\barbi\\PycharmProjects\\CETIChat2\\NER",
+  "prometheus_sensor_file_path": "C:\\Users\\barbi\\PycharmProjects\\CETIChat2\\NLP\\Data\\prometheus_metrics.txt",
+  "tsorage_api": {
+    "all_sensors_url": "",
+    "base_url": " https://hub.tsorage-dmway.cetic.be/api/v1/",
+    "headers": {
+      "X-TS-TENANT": "02411ebc-17ec-4d1c-b1ac-d1b5514ee629",
+      "Authorization": "BasicZm9vQGJhci5jb206c2VjcmV0"
+    },
+    "sensor_url": "query_range?",
+    "query_params": {
+      "end": "&end",
+      "query": "query",
+      "start": "&start"
+    }
+  }
+}

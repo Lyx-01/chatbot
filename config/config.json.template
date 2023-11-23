@@ -1,0 +1,33 @@
+{
+  // Copy file as config.json and put your hard path there
+  /*
+  Configuration Parameters:
+  - data_dir_path: Path to the directory containing all data parquet files.
+  - model_checkpoint: Path to the directory where the model is stored.
+  - prometheus_sensor_file_path: Path to your prometheus_metrics.txt file.
+  Typically, it is located one folder above your data_dir_path.
+  - tsorage_api: information about Tsorage in order to find sensor data
+    - all_sensors_url: endpoint to get all sensors name
+    - base_url: base url
+    - headers: headers
+    - sensor_url: endpoint to get more detailed data for one sensor
+    - query_params: params to add in sensor_url
+  */
+  "data_dir_path": "",
+  "model_checkpoint": "",
+  "prometheus_sensor_file_path": "",
+  "tsorage_api": {
+    "all_sensors_url": "",
+    "base_url": "",
+    "headers": {
+      "X-TS-TENANT": "",
+      "Authorization": ""
+    },
+    "sensor_url": "query_range?",
+    "query_params": {
+      "end": "&end",
+      "query": "query",
+      "start": "&start"
+    }
+  }
+}
