@@ -6,10 +6,10 @@ class DBConnection:
         """
         Initialise une instance de la classe DBConnection avec les paramètres de connexion par défaut.
         """
-        self.host = "localhost"
-        self.database = "CETIChat"
-        self.user = "postgres"
-        self.password = "Friteseven05"
+        self.host = ""
+        self.database = ""
+        self.user = ""
+        self.password = ""
         self.conn = None
         self.cur = None
 
